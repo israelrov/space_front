@@ -1,6 +1,9 @@
-.header{
-    background-color: #2f85e0;
-    color: #8a0e0e;
-    text-align: left;
-    height: 140px;
-  }
+.header {
+  background-color: #2f85e0;
+  color: #8a0e0e;
+  text-align: left;
+  /* height: 140px; */
+
+  width: 100%;
+  padding: 10px;
+}

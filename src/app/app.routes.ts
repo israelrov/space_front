@@ -12,12 +12,13 @@ import { MainComponent } from './components/main/main.component';
 export const routes: Routes = [
 
     { path: "", component: FirstPageComponent, pathMatch: 'full' },
+    // { path: "main", component: MainComponent },
     {
-        path: "main", component:MainComponent,
+        path: "main", component: MainComponent,
         children: [
-            {path: "",component:BackgroundPageComponent},
-            {path: "customers", component: CustomersComponent },    
-                            
+            { path: "", component: BackgroundPageComponent },
+            { path: "customers", component: CustomersComponent },
+
         ],
     },
     { path: "**", component: ErrorComponent }

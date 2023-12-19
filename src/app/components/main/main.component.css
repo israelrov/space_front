@@ -1,5 +1,26 @@
+:host {
+  display: block;
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+router-outlet {
+  display: none;
+}
+
 .contaner_page {
-    display: grid;
-    grid-template-columns: 1fr 5fr;
-    background-color: aquamarine;
-  }
+  display: grid;
+  grid-template-columns: auto 1fr;
+  background-color: aquamarine;
+  gap: 20px;
+  height: 100%;
+}
+
+.sideBar {
+  background-color: white;
+  padding: 10px;
+  border-right: 2px solid black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100%;
+}
